@@ -6,6 +6,10 @@ import java.io.InputStream;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
+/**
+ * A helper class that reads certain data types from an input stream. Stolen from
+ * https://github.com/ekgame/bancho-api/blob/master/src/main/java/lt/ekgame/bancho/api/packets/ByteDataInputStream.java.
+ */
 public class ByteDataInputStream extends InputStream {
     private DataInputStream input;
 

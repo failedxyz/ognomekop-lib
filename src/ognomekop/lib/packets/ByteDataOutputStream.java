@@ -7,7 +7,9 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.charset.Charset;
 
-
+/**
+ * A helper class that writes certain data types to an output stream. Stolen from https://github.com/ekgame/bancho-api/blob/master/src/main/java/lt/ekgame/bancho/api/packets/ByteDataOutputStream.java
+ */
 public class ByteDataOutputStream extends OutputStream {
     private OutputStream output;
 
