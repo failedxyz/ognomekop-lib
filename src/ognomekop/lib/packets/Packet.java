@@ -23,4 +23,11 @@ public abstract class Packet {
      * @throws IOException
      */
     public abstract void write(ByteDataOutputStream stream, int length) throws IOException;
+
+    /**
+     * To be implemented on a packet-by-packet basis.
+     *
+     * @return The number of bytets in the packet.
+     */
+    public abstract int size();
 }
